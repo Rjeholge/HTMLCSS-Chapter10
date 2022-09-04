@@ -28,7 +28,6 @@
 }
 
 .step-badge {
-  display: inline-block;
   background-color: #ff9a4b;
   color: #fff;
   position: absolute;
@@ -87,7 +86,7 @@
 
   .step {
     width: 90%;
-    margin:0 auto 20px auto;
+    margin:0 auto 20px;
   }
 
   .step:last-child {
@@ -111,14 +110,6 @@
     height: 150px;
     background-size: cover;
     background-position: bottom;
-  }
-
-  .step-title {
-    font-size: 1.04em;
-  }
-
-  .step-text {
-    font-size: 0.8em;
   }
 
   footer {
